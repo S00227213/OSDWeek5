@@ -1,0 +1,10 @@
+/* Style for child1.component */
+.child1-container {
+    margin-top: 20px;
+  }
+  
+  /* Style for the label */
+  .label {
+    font-weight: bold;
+  }
+  
