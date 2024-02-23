@@ -10,11 +10,13 @@ export class CounterService {
 
   increment() {
     this.count.set(this.count() + 1);
+    console.log('Count incremented to:', this.count());
   }
 
   decrement() {
     if (this.count() > 0) {
       this.count.set(this.count() - 1);
+      console.log('Count decremented to:', this.count());
     }
   }
   
